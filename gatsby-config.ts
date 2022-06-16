@@ -24,6 +24,13 @@ const config: GatsbyConfig = {
       "path": "./src/pages/"
     },
     __key: "pages"
+  }, {
+    resolve: 'gatsby-plugin-theme-ui',
+    options: {
+      "prismPreset": "night-owl",
+      "preset": "@theme-ui/preset-funk"
+    },
+    __key: "pages"
   }]
 };
 
